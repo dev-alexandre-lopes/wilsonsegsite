@@ -4,7 +4,7 @@
 
 ![banner2](https://user-images.githubusercontent.com/64049906/108572415-9c963180-72e8-11eb-9fe4-ef8bee5cd82d.jpeg)
 </a>
-  <p align="center"><strong> Wilson's Seguros </strong></p>
+  <p><strong> Wilson's Seguros </strong></p>
 </p>
 
 A **Wilson's seguros**, é uma empresa atuante no ramo de Serviços, Consultoria, Administração e Corretagem de Seguros. Possui compromisso com a Qualidade, Pontualidade, Segurança nos processos, e Responsabilidade Social como boa prática juntos aos seus Clientes e Fornecedores. 
