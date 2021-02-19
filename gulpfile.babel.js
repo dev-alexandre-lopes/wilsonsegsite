@@ -30,7 +30,8 @@ const cssPlugins = [
  
 gulp.task('htmlmin', () =>{
     return gulp
-    .src('./src/*.html')
+    //.src('./src/*.html')
+    .src('./*.html')
     .pipe(htmlmin({
         collapseWhitespace:true,
         removeComments: true
@@ -76,7 +77,8 @@ gulp.task('imgemin', () =>{
 })
  
  gulp.task('default', ()=>{
-    gulp.watch('./src/*.html', gulp.series('htmlmin'))
+    //gulp.watch('./src/*.html', gulp.series('htmlmin'))
+    gulp.watch('./*.html', gulp.series('htmlmin'))
     gulp.watch('./src/css/*.css', gulp.series('styles'))   
     gulp.watch('./src/js/*.js', gulp.series('babel'))
  })
