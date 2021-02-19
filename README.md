@@ -3,7 +3,7 @@
 <p align="center">
   <a href="#">
 
-![banner](https://user-images.githubusercontent.com/64049906/108570939-5d1a1600-72e5-11eb-8d2a-548070409f60.jpg)
+![banner2](https://user-images.githubusercontent.com/64049906/108572415-9c963180-72e8-11eb-9fe4-ef8bee5cd82d.jpeg)
 
   </a>
   <p align="center"><strong> Wilson's Seguros </strong></p>
