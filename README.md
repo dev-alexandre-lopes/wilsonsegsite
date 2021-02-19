@@ -1,6 +1,7 @@
 # Website Wilson Seguros:
 
 <p align="center"><a href="#">
+
 ![banner2](https://user-images.githubusercontent.com/64049906/108572415-9c963180-72e8-11eb-9fe4-ef8bee5cd82d.jpeg)
 </a>
   <p align="center"><strong> Wilson's Seguros </strong></p>
