@@ -13,9 +13,7 @@ A Wilson's seguros, é uma empresa atuante no ramo de Serviços, Consultoria, Ad
 
 Em parceria firmada com as principais Seguradoras atuantes no mercado, ela apresenta em seu portfólio de produtos, as mais variadas soluções em seguros pessoais, empresariais, de bens, transportes, equipamentos, garantias contratuais, crédito e muitos outros. 
 
-Situada à Av. Belém, 929 – Shalom Business – Sala 305 Cachoeirinha - Manaus/AM - Cep 69079-015.  
-
-a D’Maia Corretora de Seguros possui ambiente seguro e confortável para atender seus clientes, e oferecer-lhes as mais variadas soluções em Seguros e Produtos Financeiros.
+Situada à Rua Libertador, 913 Sala 8V Nossa Senhora das Graças - Manaus/AM - Cep 69053-090.  
 
 ## Website Oficial:
 
