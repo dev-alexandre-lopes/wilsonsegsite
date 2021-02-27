@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WilsonSeguros</title>
     <link rel="shortcut icon" href="/src/img/favicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="/dist/css/styles.min.css">
 </head>
 
 <body class="bg-gray-200">
     <!--Section Main-->
-    <section class="w-full px-3 bg-blue-900 lg:px-6">
+    <section class="w-full px-3 bg-downriver-700 lg:px-6">
         <div class="mx-auto max-w-7xl">
             <!--Navbar-->
             <nav class="sticky top-0 flex w-full h-24" x-data="{ showMenu: false }">
                 <div
                     class="relative flex flex-wrap items-center justify-between md:justify-center rounded-lg bg-blue-300 w-full h-24 mx-auto font-bold">
-                    <a href="#_"
+                    <a href="#"
                         class=" flex flex-row md:flex-col md:items-center md:justify-center w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0">
                         <img class="rounded-lg h-10 w-10 mr-2" src="/src/img/logo1-removebg-preview.png" alt="Logotipo">
-                        <span class="text-lg font-bold leading-none text-gray-900">Wilson<span class="text-blue-900 text-xl font-extrabold">'</span>s Seguros<span
+                        <span class="text-lg font-bold leading-none text-downriver-900">Wilson<span
+                                class="text-blue-900 text-xl font-extrabold">'</span>s Seguros<span
                                 class="text-pink-500">.</span></span>
                     </a>
                     <div class="fixed top-0 hidden w-full h-full p-3 text-2xl bg-gray-900 md:text-sm lg:text-base md:w-3/4 md:bg-transparent md:p-0 md:relative md:flex"
@@ -30,17 +32,15 @@
                             <div
                                 class="flex flex-col items-center justify-evenly w-full h-full mt-12 text-center text-gray-900 md:text-gray-400 md:w-3/3 md:mt-0 md:flex-row md:items-center">
                                 <a href="#"
-                                    class="inline-block px-4 py-2 mx-2 font-medium text-left text-gray-900 md:text-gray-900 md:px-0 lg:mx-3 md:text-center">Quem
-                                    Somos</a>
+                                    class="inline-block px-4 py-2 mx-2 font-medium text-left md:rounded-lg md:px-2 text-gray-900 md:hover:bg-blue-900 md:hover:text-white lg:mx-3 md:text-center">Home</a>
+                                <a href="#vantagens"
+                                    class="inline-block px-0 py-2 mx-2 font-medium text-left md:rounded-lg md:px-2 text-gray-900 md:hover:bg-blue-900 md:hover:text-white lg:mx-3 md:text-center">Vantagens</a>
+                                <a href="#produtos"
+                                    class="inline-block px-0 py-2 mx-2 font-medium text-left md:rounded-lg md:px-2 text-gray-900 hover:bg-blue-900 md:hover:text-white lg:mx-3 md:text-center">Produtos</a>
+                                <a href="#parceiros"
+                                    class="inline-block px-0 py-2 mx-2 font-medium text-left md:rounded-lg md:px-2 text-gray-900 hover:bg-blue-900 md:hover:text-white lg:mx-3 md:text-center">Parceiros</a>
                                 <a href="#"
-                                    class="inline-block px-0 py-2 mx-2 font-medium text-left md:px-0 hover:text-gray-900 md:hover:text-gray-900 lg:mx-3 md:text-center">Auto</a>
-                                <a href="#"
-                                    class="inline-block px-0 py-2 mx-2 font-medium text-left md:px-0 hover:text-gray-900 md:hover:text-gray-900 lg:mx-3 md:text-center">Vida/Saúde</a>
-                                <a href="#"
-                                    class="inline-block px-0 py-2 mx-2 font-medium text-left md:px-0 hover:text-gray-900 md:hover:text-gray-900 lg:mx-3 md:text-center">Outros</a>
-                                <a href="#"
-                                    class="inline-block px-0 py-2 mx-2 font-medium text-left md:px-0 hover:text-gray-900 md:hover:text-gray-900 lg:mx-3 md:text-center">Fale
-                                    Conosco</a>
+                                    class="inline-block px-0 py-2 mx-2 font-medium text-left md:rounded-lg md:px-2 text-gray-900 hover:bg-blue-900 md:hover:text-white lg:mx-3 md:text-center">Fale Conosco</a>
                             </div>
                         </div>
                     </div>
@@ -59,72 +59,60 @@
                     </div>
                 </div>
             </nav>
+
             <!--Hero-->
-            <div class="container py-10 mx-auto text-center sm:px-4">
+            <div class="container h-screen mx-auto text-center sm:px-4 overflow-x-auto bg-no-repeat bg-cover bg-bannersm md:bg-bannermd lg:bg-banner">
                 <h1
-                    class="text-4xl font-extrabold leading-10 tracking-tight text-white sm:text-5xl sm:leading-none md:text-6xl xl:text-7xl">
+                    class="text-2xl font-extrabold leading-10 tracking-tight mt-2 text-white sm:text-3xl sm:leading-none md:text-5xl xl:text-6xl">
                     <span class="block">Wilson's Corretora de Seguros</span>
                     <span class="inline-block mt-3 text-white">Os melhores planos para <strong
                             class="hover:text-green-500">VOCÊ!</strong></span>
                 </h1>
-                <div
-                    class="max-w-lg mx-auto mt-6 text-sm text-center text-white md:mt-12 sm:text-base md:max-w-xl md:text-lg xl:text-xl">
-                    Descubra os melhores planos de saúde da sua região. Saiba na hora todos os hospitais, laboratórios e
-                    qual o valor da sua economia mensal!</div>
+            </div>
+
+            <!--Frase Hero-->
+            <div class="max-w-lg mx-auto mt-6 text-lg text-center font-bold text-white md:mt-12 sm:text-xl md:max-w-xl md:text-xl xl:text-2xl">
+                    Contamos com um setor jurídico especializado em direito securitário pronto para te atender.
             </div>
 
             <h2 class="text-4xl font-bold text-white tracking-tight text-center py-8 mb-9">Nossos Contatos</h2>
             <!--Seção Contatos-->
             <section class="container mx-auto rounded-xl shadow-lg bg-gray-300 text-gray-600 body-font mb-10">
-                <div class="flex justify-center items-center flex-wrap">
-                    <div class="md:w-1/3 lg:mb-0 ">
-                        <div class="h-full text-center">
-                            <img alt="testimonial"
-                                class="w-12 h-12 md:w-20 md:h-20 mx-6 md:mx-2 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                                src="/src/img/Whatssap.png">
+                <div class="flex justify-center items-center flex-wrap p-2">
+                    <div class="md:w-1/3 lg:mb-0">
+                        <div class="h-full text-center mx-2">
+                                <i class= "fab fa-whatsapp bg-blue-900 text-white p-3 rounded-xl border-2 border-gray-200" style="font-size: 40px;"></i>
                         </div>
                     </div>
-                    <div class="md:w-1/3 lg:mb-0 ">
-                        <div class="h-full text-center">
-                            <img alt="testimonial"
-                                class="w-12 h-12 md:w-20 md:h-20 mx-6 md:mx-2 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                                src="/src/img/facebook.png">
+                    <div class="md:w-1/3 lg:mb-0">
+                        <div class="h-full text-center mx-2">
+                                <i class= "fab fa-facebook bg-blue-900 text-white p-3 rounded-xl border-2 border-gray-200" style="font-size: 40px;"></i>
                         </div>
                     </div>
-                    <div class="md:w-1/3 lg:mb-0 ">
-                        <div class="h-full text-center">
-                            <img alt="testimonial"
-                                class="w-12 h-12 md:w-20 md:h-20 mx-6 md:mx-2 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                                src="/src/img/Instagram2.jpg">
+                    <div class="md:w-1/3 lg:mb-0">
+                        <div class="h-full text-center mx-2">
+                                <i class= "fab fa-instagram bg-blue-900 text-white p-3 rounded-xl border-2 border-gray-200" style="font-size: 40px;"></i>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <h2 class="text-4xl font-bold text-white tracking-tight text-center py-8 mb-9">Algumas Vantagens em ser
+            <h2 id="vantagens" class="text-4xl font-bold text-white tracking-tight text-center py-8 mb-9">Vantagens em ser
                 Nosso Cliente</h2>
             <!--Seção Vantagens-->
             <section class="container bg-gray-300 mx-auto rounded-xl shadow-lg text-gray-600 body-font">
                 <div class="container px-5 py-5 mx-auto">
-                    <div class="flex flex-col text-center w-full mb-20">
+                    <div class="flex flex-col text-center w-full mb-10">
 
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-black">Whatever cardigan tote bag tumblr hexagon
-                            brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-                            heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac
-                            humblebrag.</p>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed font-bold text-2xl mt-10 text-black">Descubra os melhores PLANOS E SEGUROS com valores que cabem no seu bolso! </p>
                     </div>
                     <div class="flex justify-between flex-wrap -m-4 text-center">
                         <div class="p-4 md:w-1/2 sm:w-1/2 w-full">
                             <div class="border-2 border-gray-200 px-4 py-6 rounded-lg bg-blue-400 text-white">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                                    viewBox="0 0 24 24">
-                                    <path d="M3 18v-6a9 9 0 0118 0v6"></path>
-                                    <path
-                                        d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z">
-                                    </path>
-                                </svg>
-                                <h2 class="title-font font-bold text-3xl text-gray-900">ATENDIMENTO</h2>
+                                <div> 
+                                    <i class= "fas fa-headset bg-blue-900 p-3 rounded-xl border-2 border-gray-200 mb-3" style="font-size: 40px;"></i>
+                                </div>
+                                <h2 class="title-font font-bold text-2xl text-gray-900">ATENDIMENTO</h2>
                                 <p class="leading-relaxed">Nós temos um atendimento especializado não apenas para ajudar
                                     na
                                     contratação, mas também durante a vigência do seu seguro. </p>
@@ -132,25 +120,20 @@
                         </div>
                         <div class="p-4 md:w-1/2 sm:w-1/2 w-full">
                             <div class="border-2 border-gray-200 px-4 py-6 rounded-lg bg-blue-400 text-white">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                                    viewBox="0 0 24 24">
-                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                </svg>
-                                <h2 class="title-font text-3xl text-gray-900 font-bold">PREÇOS E CONDIÇÕES</h2>
+                                <div> 
+                                    <i class= "fas fa-money-check-alt bg-blue-900 p-3 rounded-xl border-2 border-gray-200 mb-3" style="font-size: 40px;"></i>
+                                </div>
+                                <h2 class="title-font text-2xl text-gray-900 font-bold">PREÇOS E CONDIÇÕES</h2>
                                 <p class="leading-relaxed">Nossas condições comerciais são diferentes. Com apoio das
                                     melhores seguradoras, podemos oferecer propostas que cabem no seu bolso.</p>
                             </div>
                         </div>
                         <div class="p-4 md:w-1/2 sm:w-1/2 w-full">
                             <div class="border-2 border-gray-200 px-4 py-6 rounded-lg bg-blue-400 text-white">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                                    viewBox="0 0 24 24">
-                                    <path d="M8 17l4 4 4-4m-4-5v9"></path>
-                                    <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
-                                </svg>
-                                <h2 class="title-font font-bold text-3xl text-gray-900">AGILIDADE</h2>
+                                <div> 
+                                    <i class= "fas fa-shipping-fast bg-blue-900 p-3 rounded-xl border-2 border-gray-200 mb-3" style="font-size: 40px;"></i>
+                                </div>
+                                <h2 class="title-font font-bold text-2xl text-gray-900">AGILIDADE</h2>
                                 <p class="leading-relaxed">Usamos tecnologia de ponta para entregar opções de forma
                                     rápida,
                                     segura e em diversos dispositivos (computador, celular, tablet, etc).</p>
@@ -158,14 +141,10 @@
                         </div>
                         <div class="p-4 md:w-1/2 sm:w-1/2 w-full">
                             <div class="border-2 border-gray-200 px-4 py-6 rounded-lg bg-blue-400 text-white">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block"
-                                    viewBox="0 0 24 24">
-                                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                                    <circle cx="9" cy="7" r="4"></circle>
-                                    <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
-                                </svg>
-                                <h2 class="title-font font-bold text-3xl text-gray-900">EXPERIÊNCIA</h2>
+                                <div> 
+                                    <i class= "fas fa-users bg-blue-900 p-3 rounded-xl border-2 border-gray-200 mb-3" style="font-size: 40px;"></i>
+                                </div>
+                                <h2 class="title-font font-bold text-2xl text-gray-900">EXPERIÊNCIA</h2>
                                 <p class="leading-relaxed">Possuímos vasta experiência no mercado de seguros, podendo
                                     assim
                                     oferecer sempre as melhores opções de seguros para nossos clientes.</p>
@@ -175,217 +154,133 @@
                 </div>
             </section>
 
-            <h2 class="text-4xl font-bold text-white tracking-tight text-center py-12 mb-9">Nossos Produtos</h2>
+            <h2 id="produtos" class="text-4xl font-bold text-white tracking-tight text-center py-12 mb-9">Nossos Produtos</h2>
             <!--Seção Nossos Produtos-->
             <section class="container bg-gray-300 mx-auto rounded-xl shadow-lg py-20">
                 <div class="container max-w-6xl mx-auto">
-                    <p class="mt-2 text-lg text-center text-black">Verifique os melhores seguros para sua necessidade.</p>
+                    <p class="lg:w-2/3 mx-10 text-center lg:mx-auto leading-relaxed font-bold text-2xl text-black">Serviços ideias para você, sua família e sua empresa.</p> 
+                  
                     <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
 
                         <div
                             class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                    <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
-                                    <circle cx="6" cy="14" r="3" />
-                                    <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
-                                </svg>
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-car-crash" style="font-size:xx-large;"></i>
                             </div>
-                            <h4 class="text-xl font-medium text-black">Seguro <strong>AUTO</strong></h4>
-                            <p class="text-base text-center text-white">Each of our plan will provide you and your
-                                team with certifications.</p>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>AUTO</strong></h4>
+                            <p class="text-base text-center text-white">Cotação rápida e fácil nas principais seguradoras do Brasil garantindo os melhores valores, descontos e beneficios pra você.</p>
                         </div>
 
                         <div
                             class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M18 8a3 3 0 0 1 0 6" />
-                                    <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
-                                    <path
-                                        d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
-                                </svg>
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-house-damage" style="font-size: xx-large;" ></i>
                             </div>
-                            <h4 class="text-xl font-medium text-black">Seguro <strong>Moto</strong></h4>
-                            <p class="text-base text-center text-white">Send out notifications to all your customers
-                                to keep them engaged.</p>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>RESIDENCIAL</strong></h4>
+                            <p class="text-base text-center text-white">Seu lar sempre protegido com toda atenção que ele merece e fique tranquilo em caso de imprevistos e sinistros.</p>
+                        </div>
+                    
+                        <div
+                            class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-ship" style="font-size: xx-large;"></i>
+                            </div>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>EMBARCAÇÃO</strong></h4>
+                            <p class="text-base text-center text-white">Temos opções de proteção completas para proteger a sua embarcação de qualquer tipo de sinistro e ocorrências durante suas viagens.</p>
                         </div>
 
                         <div
                             class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
-                                    <line x1="12" y1="12" x2="20" y2="7.5" />
-                                    <line x1="12" y1="12" x2="12" y2="21" />
-                                    <line x1="12" y1="12" x2="4" y2="7.5" />
-                                    <line x1="16" y1="5.25" x2="8" y2="9.75" />
-                                </svg>
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-motorcycle" style="font-size: xx-large;"></i>
                             </div>
-                            <h4 class="text-xl font-medium text-black">Seguro <strong>Caminhão</strong></h4>
-                            <p class="text-base text-center text-white">High-quality bundles of awesome tools to help
-                                you out.</p>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>MOTO</strong></h4>
+                            <p class="text-base text-center text-white">Garanta a proteção e a reposição em caso de furtos.</p>
                         </div>
 
                         <div
                             class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M8 9l3 3l-3 3" />
-                                    <line x1="13" y1="15" x2="16" y2="15" />
-                                    <rect x="3" y="4" width="18" height="16" rx="2" />
-                                </svg>
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-gavel" style="font-size: xx-large;"></i>
                             </div>
-                            <h4 class="text-xl font-medium text-black">Seguro <strong>Frota</strong></h4>
-                            <p class="text-base text-center text-white">Developer tools to help grow your application
-                                and keep it up-to-date.</p>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>RESPONSABILIDADE CIVIL</strong></h4>
+                            <p class="text-base text-center text-white">Protegendo você contra imprevistos que podem ocorrer a todo momento.</p>
                         </div>
 
                         <div
                             class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <line x1="9.5" y1="11" x2="9.51" y2="11" />
-                                    <line x1="14.5" y1="11" x2="14.51" y2="11" />
-                                    <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                                    <path
-                                        d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
-                                </svg>
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-microchip" style="font-size: xx-large;"></i>
                             </div>
-                            <h4 class="text-xl font-medium text-black">Seguro <strong>Residencial</strong></h4>
-                            <p class="text-base text-center text-white">The right kind of building blocks to take
-                                your company to the next level.</p>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>ElETRÔNICOS</strong></h4>
+                            <p class="text-base text-center text-white">Cuidamos da segurança do seu equipamento eletrônico.</p>
                         </div>
 
                         <div
                             class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <line x1="9.5" y1="11" x2="9.51" y2="11" />
-                                    <line x1="14.5" y1="11" x2="14.51" y2="11" />
-                                    <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                                    <path
-                                        d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
-                                </svg>
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-plane" style="font-size: xx-large;"></i>
                             </div>
-                            <h4 class="text-xl font-medium text-black">Seguro <strong>Vida</strong></h4>
-                            <p class="text-base text-center text-white">The right kind of building blocks to take
-                                your company to the next level.</p>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>VIAGEM</strong></h4>
+                            <p class="text-base text-center text-white">Livre-se de imprevistos, pouco investimento para muita segurança.</p>
                         </div>
 
                         <div
                             class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <line x1="9.5" y1="11" x2="9.51" y2="11" />
-                                    <line x1="14.5" y1="11" x2="14.51" y2="11" />
-                                    <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                                    <path
-                                        d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
-                                </svg>
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-heartbeat" style="font-size: xx-large;"></i>
                             </div>
-                            <h4 class="text-xl font-medium text-black">Plano/Seguro <strong>Saúde</strong></h4>
-                            <p class="text-base text-center text-white">The right kind of building blocks to take
-                                your company to the next level.</p>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>VIDA</strong></h4>
+                            <p class="text-base text-center text-white">Planos com benefícios para você usar e com diversos tipos de coberturas</p>
                         </div>
 
                         <div
                             class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <line x1="9.5" y1="11" x2="9.51" y2="11" />
-                                    <line x1="14.5" y1="11" x2="14.51" y2="11" />
-                                    <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                                    <path
-                                        d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
-                                </svg>
+                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-xl">
+                                <i class="fas fa-industry" style="font-size: xx-large;"></i>
                             </div>
-                            <h4 class="text-xl font-medium text-black">Planos <strong>Odontológicos</strong></h4>
-                            <p class="text-base text-center text-white">The right kind of building blocks to take
-                                your company to the next level.</p>
-                        </div>
-
-                        <div
-                            class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 border-2 border-gray-200 bg-blue-400 sm:rounded-xl">
-                            <div class="p-3 border-2 border-gray-200 text-white bg-blue-900 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <line x1="9.5" y1="11" x2="9.51" y2="11" />
-                                    <line x1="14.5" y1="11" x2="14.51" y2="11" />
-                                    <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                                    <path
-                                        d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
-                                </svg>
-                            </div>
-                            <h4 class="text-xl font-medium text-black">Seguro <strong>Empresarial</strong></h4>
-                            <p class="text-base text-center text-white">The right kind of building blocks to take
-                                your company to the next level.</p>
+                            <h4 class="text-2xl font-medium text-center text-black">SEGURO <strong>EMPRESARIAL</strong></h4>
+                            <p class="text-base text-center text-white">Completa proteção para sua empresa, colaboradores e clientes.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <h2 class="text-4xl font-bold text-white tracking-tight text-center py-8 mb-9">Nossos Parceiros</h2>
+            <h2 id="parceiros" class="text-4xl font-bold text-white tracking-tight text-center py-8 mb-9">Nossos Parceiros</h2>
             <!-- Seção Nossos Parceiros-->
             <section class="container mx-auto bg-gray-300 rounded-xl shadow-lg pt-7 pb-7">
                 <div class="container px-8 mx-auto sm:px-12 lg:px-20">
                     <div
                         class="flex flex-col md:grid items-center justify-center sm:grid-cols-4 md:grid-cols-12 gap-y-8">
                         <div
-                            class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
-                            <img src="/src/img/mapfre.png" alt="Mapfre" class="block object-contain h-12">
+                            class="flex items-center justify-center mx-2 bg-gray-200 rounded-lg border-2 border-gray-700 col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
+                            <img src="/src/img/logo_mapfre.png" alt="Mapfre" class="block object-contain w-60 h-32">
                         </div>
                         <div
-                            class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
-                            <img src="/src/img/suhai.jpeg" alt="Suhai" class="block object-contain h-9">
+                            class="flex items-center justify-center mx-2 bg-gray-200 rounded-lg border-2 border-gray-700 col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
+                            <img src="/src/img/suhai_logo.png" alt="Suhai" class="block object-contain w-60 h-32 p-2">
                         </div>
                         <div
-                            class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
-                            <img src="/src/img/sulamerica.png" alt="Hubspot" class="block object-contain h-9">
+                            class="flex items-center justify-center mx-2 bg-gray-200 rounded-lg border-2 border-gray-700 col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
+                            <img src="/src/img/logo_sulamerica.png" alt="Hubspot" class="block object-contain w-60 h-32">
                         </div>
                         <div
-                            class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
+                            class="flex items-center justify-center mx-2 bg-gray-200 rounded-lg border-2 border-gray-700 col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
                             <img src="/src/img/tokiomarine-ClaroSeguros.png" alt="Tokio Marine"
-                                class="block object-contain h-7 lg:h-8">
+                                class="block object-contain w-60 h-32">
                         </div>
                         <div
-                            class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-6 xl:col-span-2">
-                            <img src="/src/img/bradesco-seguros-logo.png" alt="Slack" class="block object-contain h-9">
+                            class="flex items-center justify-center mx-2 bg-gray-200 rounded-lg border-2 border-gray-700 col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
+                            <img src="/src/img/logo_magseguros.png" alt="Slack" class="block object-contain w-60 h-32 p-2">
                         </div>
                         <div
-                            class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-6 xl:col-span-2">
-                            <img src="/src/img/unimed-fama.png" alt="Shopify" class="block object-contain h-9">
+                            class="flex items-center justify-center mx-2 bg-gray-200 rounded-lg border-2 border-gray-700 col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
+                            <img src="/src/img/unimed_logo.png" alt="Shopify" class="block object-contain w-60 h-32 p-2">
                         </div>
                     </div>
                 </div>
             </section>
+
             <h2 class="text-4xl font-bold text-white tracking-tight text-center py-8 mb-9">Mais Informações</h2>
             <!--Footer-->
             <footer class="container mx-auto bg-gray-300 rounded-xl shadow-lg text-gray-600 body-font">
@@ -396,8 +291,8 @@
                             class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                             <img src="/src/img/banner2-removebg-preview.png" alt="Shopify" class="block object-contain">
                         </a>
-                        <p class="mt-2 mx-5 text-sm text-gray-500">O impossível fazemos na hora!</br> Milagre demora um
-                            pouquinho!</p>
+                        <!-- <p class="mt-2 mx-5 text-sm text-gray-500">O impossível fazemos na hora!</br> Milagre demora um
+                            pouquinho!</p>-->
                     </div>
                     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -514,8 +409,9 @@
                     </div>
                 </div>
             </footer>
+        </div>
     </section>
-    </div>
+  
     <!--Script alpine.js para interatividade do Navbar-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
 </body>
